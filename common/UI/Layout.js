@@ -5,7 +5,7 @@ import Seo from './Seo';
 const Layout = (props) => {
     return (
         <>
-            <Seo title={props.title} />
+            <Seo title={props.title} metaContent={props.metaContent} />
             <NavBar />
             <main>{props.children}</main>
             <Footer />
