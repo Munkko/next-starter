@@ -1,0 +1,12 @@
+:root {
+    --color-text: #000;
+    --color-background: #fff;
+
+    --color-highlight: #07c;
+
+    --padding-global: 1rem;
+}
+
+::selection {
+    background-color: var(--color-highlight);
+}
